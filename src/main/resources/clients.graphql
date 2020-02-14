@@ -1,0 +1,21 @@
+schema{
+    query:Query
+}
+
+type Query{
+    allClients: [Client]
+    client(clientId: Int): Client
+}
+
+type Client{
+    clientId: Int
+    firstName: String
+    lastName: String
+    midName: String
+    address: Address
+}
+
+type Address{
+    streetName: String
+    city: String
+}
