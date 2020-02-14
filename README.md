@@ -18,7 +18,7 @@ You can access the H2 DB console at: http://localhost:8080/h2-console
 ## Sample Graph Queries
 
 <B>POST: http://localhost:8080/client </B>
-Payload: choose from below list
+Payload: choose from below list<BR>
 a) Get All clients details with first name, mid name and  city
 ```
 {
